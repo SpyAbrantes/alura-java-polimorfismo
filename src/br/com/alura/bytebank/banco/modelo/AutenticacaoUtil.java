@@ -1,6 +1,8 @@
 package br.com.alura.bytebank.banco.modelo;
 
-public class AutenticacaoUtil {
+import java.io.Serializable;
+
+public class AutenticacaoUtil implements Serializable {
 
     private int senha;
 

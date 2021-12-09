@@ -1,12 +1,14 @@
 package br.com.alura.bytebank.banco.modelo;
 
+import java.io.Serializable;
+
 /**
  * Classe que representa um cliente no ByteBank
  *
  * @author Gbariel Abrantes
  * @version 0.1
  */
-public class Cliente implements Autenticavel{
+public class Cliente implements Autenticavel, Serializable {
 
     private AutenticacaoUtil autenticador;
     private String nome;
